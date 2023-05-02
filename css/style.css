@@ -1,3 +1,44 @@
 body{
     background-color:rgb(28, 28, 28);
+    background-image: url("../img/fongo4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.inicio h1{
+
+font-size: 100 px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+}
+
+.inicio img{
+
+    border-radius: 100%;
+    border: 5px solid white;
+}
+
+.galeria{
+    border: 2px solid white; \
+    
+}
+.galeria{
+display: flex;
+border: 10px solid transparent;
+overflow-x:scroll;
+}
+.galeria img{
+
+width: 350px;
+height: 350xp;
+
 }
